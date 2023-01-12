@@ -1,0 +1,17 @@
+sum(N, Sum) :-
+    Sum is (N + 1) * N / 2.
+    
+    
+    OUTPUT:-
+    % c:/Users/admin/Documents/Prolog/program.pl compiled 0.00 sec, 1 clauses
+?- 
+|    sum(5,N).
+N = 15.
+
+?- sum(10,N).
+N = 55.
+
+?- sum(9,N).
+N = 45.
+
+?- 
