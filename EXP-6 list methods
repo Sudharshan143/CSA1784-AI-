@@ -1,0 +1,39 @@
+l1=[]
+print("Origimal list:",l1)
+print("Adding elements")
+l1.append(2)
+l1.append(8)
+l1.append(9)
+l1.append(7)
+print(l1)
+print("Extend:")
+l1.extend([3,4,5])
+print(l1)
+print("Deleting the element")
+print("remove() -deletes a particular element")
+l1.remove(5)
+print(l1)
+print("pop-deletes the last element")
+print(l1.pop())
+print("After deleting the last element")
+print(l1)
+print("Final list")
+print(l1)
+
+
+
+OUTPUT
+Origimal list: []
+Adding elements
+[2, 8, 9, 7]
+Extend:
+[2, 8, 9, 7, 3, 4, 5]
+Deleting the element
+remove() -deletes a particular element
+[2, 8, 9, 7, 3, 4]
+pop-deletes the last element
+4
+After deleting the last element
+[2, 8, 9, 7, 3]
+Final list
+[2, 8, 9, 7, 3]
