@@ -1,0 +1,14 @@
+rainy(chennai).
+rainy(coimbatore).
+rainy(ooty).
+cold(ooty).
+snowy(X):-rainy(X),cold(X).
+
+
+OUTPUT:-
+% c:/Users/admin/Documents/Prolog/forwardchaining.pl compiled 0.00 sec, 5 clauses
+?- 
+|    rainy(X).
+X = chennai ;
+X = coimbatore ;
+X = ooty.
