@@ -1,0 +1,21 @@
+my_str = input("Enter a string: ")   
+words = my_str.split()  
+words.sort()    
+for word in words:  
+   print(word)
+   
+   
+   
+   OUT PUT:
+Enter a string: i am fine how are you
+am
+are
+fine
+how
+i
+you
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
